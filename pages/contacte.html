@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Înscrieri și contacte</title>
+
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com\ajax\libs\font-awesome\5.15.2\css\all.min.css"/>
+    <link rel="icon" href="images/logo.png"/>
+  
+    <link rel="stylesheet" href="css/lightbox.css" />
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  
+    <script src="../js/main.js" defer></script>
+    <script src="../js/lightbox.js"></script>
+
+    <link  src="https://pediatrica.md/wp-content/uploads/2020/06/phone.png">
+</head>
+<body>
+  <header>
+
+    <a href="index.html">
+      <img class="logo" src="../images/logo.png">
+    </a>
+
+    <navbar class="nav mobile" id="navbar">
+      <a href="../index.html">Despre noi/Galerie</a>
+      <a href="servicii.html">Servicii prestate</a>
+      <a href="contacte.html">Înscrieri și contacte</a>
+      <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+    </navbar>
+  </header>
+    <main>
+    <section id="contacte">
+        <h1 class="centered">Înscrieri și contacte</h1>
+  
+        <div class="row">
+          <div class="col-50 contacte-info" >
+          <b>Telefon</b>
+          <a href="tel:+373644551013">+373 644551013</a>
+  
+          <br/>
+  
+          <b>Adresa: </b>
+          <span>Str. Calea Orheiului</span>
+  
+          <br/>
+  
+           <b>E-mail:</b>
+           <a href="mailto:salonulnad020@gmail.com">salonulnad020@gmail.com</a>
+           
+           <br/>
+           <div class="formular-container">
+            <form id="formular">
+              <hr3>Lasă un mesaj</hr3>
+              <input type="text" id="nume" placeholder="Nume" required>
+              <br>
+              <input type="email" id="email" placeholder="Email" required>
+              <br/>
+              <input type="number" placeholder="Nr. de înscrieri" min="1" max="20">
+             <br>
+             <select id=>
+              <option value="var1">Tunsoare</option>
+              <option value="var2">Manichiură/Pedichiură</option>
+             </select>
+             <br/>
+             
+              <textarea id="mesaj" rows="4" placeholder="Mesaj" required></textarea>
+             <input id="transmite" type="button" value="Transmite" onclick="send()">
+           </div>
+  
+          </div>
+          <div class="col-50">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10853.762049665836!2d28.824174295989753!3d47.149226268142854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cbd93c87028ef7%3A0x18d78db3c4e6d36a!2sSalon%20de%20frumuse%C8%9Be%20%22Nadejda%22!5e0!3m2!1sro!2s!4v1677178411674!5m2!1sro!2s"
+              class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+  
+  
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>Salon de frumisețe "Nadejdejda" ©</div>
+      <div id="an">2020</div>
+
+  </footer>
+
+</body>
+</html>
